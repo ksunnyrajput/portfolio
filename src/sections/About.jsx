@@ -50,13 +50,13 @@ export default function About() {
             </p>
 
             <p className="mt-4 text-gray-300 leading-relaxed text-base sm:text-lg max-w-2xl md:max-w-3xl">
-              I build scalable, modern applications with a strong focus on clean architecture, delightful UX, and performance. My toolkit spans Java, React, Next.js, TypeScript, Tailwind CSS, and FastAPI—bringing ideas to life from concept to production with robust APIs and smooth interfaces.
+              I build scalable, modern applications with a strong focus on clean architecture, delightful UX, and performance. My toolkit spans Java, React, Springboot, Mysql, Tailwind CSS, and Flask—bringing ideas to life from concept to production with robust APIs and smooth interfaces.
             </p>
 
             {/* Quick stats */}
             <div className="mt-6 grid grid-cols-2 sm:grid-cols-3 gap-3 sm:gap-4 max-w-xl">
               {[
-                { label: "Experience", value: "5+ years" },
+                { label: "Experience", value: "1+ years" },
                 { label: "Specialty", value: "Full Stack" },
                 { label: "Focus", value: "Performance & UX" },
               ].map((item, i) => (
@@ -109,7 +109,7 @@ export default function About() {
               About Me
             </h3>
             <p className="text-gray-300 leading-relaxed text-base sm:text-lg">
-             I’m a Software Developer, Content Creator, and Web Developer — passionate about building fast, resilient applications and sharing coding insights on Instagram and YouTube.
+             I’m a Software Developer, Full Stack Developer, and Java Developer — passionate about building fast, resilient applications and solving real world problem.
             </p>
             <p className="mt-4 text-gray-400 text-base sm:text-lg">
               I love turning ideas into scalable, user‑friendly products that make an impact. 

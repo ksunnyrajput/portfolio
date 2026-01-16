@@ -1,5 +1,7 @@
 import {FaJava , FaReact} from 'react-icons/fa';
-import {SiNextdotjs, SiTypescript, SiTailwindcss, SiFastapi, SiPython, SiDocker, SiMongodb, SiAngular} from 'react-icons/si';
+import {SiTailwindcss, SiFlask, SiPython, SiDocker, SiMongodb, SiHibernate} from 'react-icons/si';
+import { BiLogoSpringBoot } from "react-icons/bi";
+import { GrMysql } from "react-icons/gr";
 import {DiNodejsSmall} from 'react-icons/di';
 import { motion, useMotionValue } from 'framer-motion';
 import { useEffect, useRef, useState } from 'react';
@@ -9,16 +11,17 @@ export default function Skills() {
 
 const skills = [
     { icon: <FaJava />, name: "Java" },
+     { icon: <BiLogoSpringBoot />, name: "Springboot" },
     { icon: <FaReact />, name: "React" },
-    { icon: <SiNextdotjs />, name: "Next.js" },
-    { icon: <SiTypescript />, name: "TypeScript" },
-    { icon: <SiTailwindcss />, name: "Tailwind CSS" },
-    { icon: <SiFastapi />, name: "FastAPI" },
+    { icon: <GrMysql />, name: "MySql" },
+    { icon: <SiHibernate />, name: "Hibernate" },
+   { icon: <SiTailwindcss />, name: "Tailwind CSS" },
+    { icon: <SiFlask />, name: "Flask" },
     { icon: <SiPython />, name: "Python" },
     { icon: <SiDocker />, name: "Docker" },
     { icon: <DiNodejsSmall />, name: "Node.js" },
     { icon: <SiMongodb />, name: "MongoDB" },
-    { icon: <SiAngular />, name: "Angular" },
+    
   ];
 const repeated = [...skills , ...skills]
 
