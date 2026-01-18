@@ -1,9 +1,8 @@
 // src/components/Footer.jsx
 import React from "react";
 import { motion } from "framer-motion";
+import { SiLeetcode } from "react-icons/si";
 import {
-  FaYoutube,
-  FaXTwitter,
   FaLinkedinIn,
   FaInstagram,
   FaGithub,
@@ -16,11 +15,10 @@ import {
  * - Add/remove items if you want more or fewer social platforms
  */
 const socials = [
-  { Icon: FaYoutube, label: "YouTube", href: "https://www.youtube.com/@gauravbitss" },
-  { Icon: FaXTwitter, label: "X", href: "https://x.com/gauravbuilds" },
-  { Icon: FaLinkedinIn, label: "LinkedIn", href: "https://www.linkedin.com/in/gaurav-gupta-4179671b0/" },
-  { Icon: FaInstagram, label: "Instagram", href: "https://www.instagram.com/gauravbits/" },
-  { Icon: FaGithub, label: "GitHub", href: "https://github.com/gauravgupta364" },
+  { Icon: FaGithub, label: "GitHub", href: "https://github.com/ksunnyrajput" },
+   { Icon: FaLinkedinIn, label: "LinkedIn", href: "https://www.linkedin.com/in/ksunnyrajput/" },
+   { Icon: SiLeetcode, label: "Leetcode", href: "https://leetcode.com/u/ksunnyrajput/" },
+   { Icon: FaInstagram, label: "Instagram", href: "https://www.instagram.com/ksunnnyrajput/" },
 ];
 
 /**
@@ -72,7 +70,7 @@ const Footer = () => {
               textShadow: "0 2px 18px rgba(0,0,0,0.45)",
             }}
           >
-            Gaurav Gupta
+            Sunny
           </h1>
         </div>
 
@@ -115,7 +113,7 @@ const Footer = () => {
         {/* --- Copyright / Trademark --- */}
         {/* Auto-updates year dynamically */}
         <p className="text-xs text-gray-400">
-          © {new Date().getFullYear()} Gaurav Gupta. All rights reserved.
+          © {new Date().getFullYear()} Sunny. All rights reserved.
         </p>
       </motion.div>
     </footer>
