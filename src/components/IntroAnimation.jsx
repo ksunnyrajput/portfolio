@@ -8,7 +8,7 @@ export default function IntroAnimation({ onFinish }) {
   const greetings = [
     "Hello", "नमस्ते", "Hola", "Bonjour",
     "Ciao", "Olá", "Здравствуйте",
-    "Merhaba", "Γειά", "Hej", "Hallo", "Salam"
+    "مرحبا", "Γειά", "Hej", "Hallo", "Salam"
   ];
 
   const [index, setIndex] = useState(0);
